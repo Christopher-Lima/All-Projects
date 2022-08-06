@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+}
+table{
+    width: 300px;
+    text-align: center;
+    border-collapse: collapse;
+}
+table th, tr, td{
+    border: 1px white solid;
+    padding: 1em;
+}
+table th{
+    font-weight: bold;
+    color: yellow;
+}
+table td:hover{
+    color: black;
+    font-weight: bold;
+    background-color: yellow;
+}

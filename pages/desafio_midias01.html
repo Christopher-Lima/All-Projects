@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Imagem e Aúdio</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Essa imagem abaixo é uma imagem dinâmica, que se altera dependendo do tamanho da tela do seu navegador, para perceber a mudança você pode acessar em diferentes dispositivos, com tamanhos de telas variados, ou você pode diminuir o tamanho da janela do seu navegador.</p>
+    <picture>
+        <source media="(min-width: 1650px" srcset="../img/imagem-grande-1600.jpg" type="image/jpg">
+        <source media="(min-width: 1330px" srcset="../img/imagem-media-1280.jpg" type="image/jpg">
+        <img src="../img/imagem-pequena-426.jpg" alt="Foto do Rio de Janeiro">
+    </picture>
+    <p>
+        Enquanto aprecia essa paisagem da cidade do Rio de Janeiro, que tal ouvir uma música?
+    </p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="../audio/Zula-Mini_Vandals.mp3" type="audio/mp3">
+        <source src="../audio/Blue_Mood-Robert_Munzinger.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
