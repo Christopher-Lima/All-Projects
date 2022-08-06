@@ -34,7 +34,7 @@ a:hover{
 body{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
 }
 main{
     display: block;
@@ -43,7 +43,6 @@ main{
     min-width: 350px;
     margin-top: 50px;
     border: 5px double #ffe46c;
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
 }
 main section{
     margin: 40px;
