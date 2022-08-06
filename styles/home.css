@@ -48,11 +48,14 @@ main{
 main section{
     margin: 40px;
 }
-main h1{
+main h1, h2{
     margin-bottom: 30px;
     text-align: center;
     color: var(--cor3);
     font: bold 3rem var(--titulo);
+}
+main h2{
+    font-size: 2rem;
 }
 main p{
     text-indent: 2rem;
