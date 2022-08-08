@@ -25,14 +25,13 @@
 a{
     text-decoration: none;
     color: var(--cor3);
-    font-family: var(--texto);
+    font: normal 1rem/2rem var(--texto);
 }
 a:hover{
     font-weight: bold;
     color: white;
 }
 body{
-    height: 120vh;
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
 }
 main{
