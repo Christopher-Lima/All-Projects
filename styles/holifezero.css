@@ -41,7 +41,7 @@ section img{
 section img:hover{
     border: 3px solid #f1f1f1;
     transform: scale(.9);
-    transition: transform 1s, border .1s;
+    transition: transform 1s, border .2s;
 }
 #adicionar:hover{
     content: url("..//img/adicionarbranco.svg");
@@ -50,6 +50,7 @@ button{
     padding: 10px 25px;
     color: #f1f1f1;
     margin-bottom: 1rem;
+    border-color: #f1f1f1;
     border-radius: 8px;
     background-color: #121214;
     font: bold 1rem 'IBM Plex Sans', sans-serif;  
