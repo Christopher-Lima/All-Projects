@@ -50,7 +50,7 @@ button{
     padding: 10px 25px;
     color: #f1f1f1;
     margin-bottom: 1rem;
-    border-color: #f1f1f1;
+    border-bottom: #f1f1f1;
     border-radius: 8px;
     background-color: #121214;
     font: bold 1rem 'IBM Plex Sans', sans-serif;  
