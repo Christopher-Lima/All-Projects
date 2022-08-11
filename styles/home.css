@@ -43,10 +43,10 @@ main{
     border: 10px double #ffe46c;
 }
 main section{
-    margin: 40px;
+    margin: 20px;
 }
 main h1, h2{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
     color: var(--cor3);
     font: bold 3rem var(--titulo);
@@ -66,4 +66,19 @@ main ul{
 }
 main li{
     list-style-position: inside;
+}
+button{
+    margin: 10px;
+    padding: 5px 25px;
+    font: bold 1rem var(--texto);
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border-radius: 10px;
+    border-color: var(--cor3);
+}
+button:hover{
+    color: var(--cor1);
+    background-color: white;
+    border-color: white;
+    cursor: pointer;
 }
